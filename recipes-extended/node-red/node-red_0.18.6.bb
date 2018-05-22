@@ -8,8 +8,8 @@ SRC_URI = " \
 	https://github.com/${PN}/${PN}/releases/download/${PV}/${PN}-${PV}.zip;name=pkg \
 "
 
-SRC_URI[pkg.md5sum] = "7cb9d56445dee1d8f26699a1bd098e24"
-SRC_URI[pkg.sha256sum] = "7fdae4b2d1ca2c309aeff7a9148a1dfe95b62223f54be78ac20028b6e42c10df"
+SRC_URI[pkg.md5sum] = "1155ffda5e9d6b88f546aab1124ced21"
+SRC_URI[pkg.sha256sum] = "f14afa2c5372d7ce4171c9e7dd55ad2dce65588d2acc103628032b9fe61ce086"
 
 S = "${WORKDIR}/${PN}-${PV}"
 
